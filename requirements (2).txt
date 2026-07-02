@@ -1,0 +1,42 @@
+1. Pandas
+import pandas as pd
+
+Role:
+
+•Used to load and manipulate the dataset.
+•Reads the CSV file using read_csv().
+•Cleans the data by handling missing values.
+•Performs filtering, grouping, and statistical analysis.
+•Example:
+
+df=pd.read_csv("Unemployment in India.csv")
+2. NumPy
+import numpy as np
+
+Role:
+•Provides numerical computing functions.
+•Helps perform mathematical operations on arrays and datasets.
+•Improves computation speed for large datasets.
+•Example:
+np.mean(df['Unemployment_Rate'])
+3. Matplotlib
+import matplotlib.pyplot as plt
+
+Role:
+•Used for creating graphs and charts.
+•Visualizes unemployment trends over time.
+•Generates line graphs, bar charts, histograms, and other plots.
+•Example:
+
+plt.plot(x, y)
+plt.show()
+4. Seaborn
+import seaborn as sns
+
+Role:
+•Built on top of Matplotlib for better-looking statistical graphics.
+•Creates attractive plots such as heatmaps, histograms, and bar plots.
+•Makes data visualization easier and more informative.
+•Example:
+
+sns.barplot(x=month, y=rate)
